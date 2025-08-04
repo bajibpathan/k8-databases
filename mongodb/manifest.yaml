@@ -40,7 +40,7 @@ spec:
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: mongodb
+  name: mongoxb
   namespace: roboshop
   labels:
     component: mongodb
