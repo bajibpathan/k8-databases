@@ -37,7 +37,7 @@ spec:
     port: 6379 # service port
     targetPort: 6379 # container port
 ---
-piVersion: apps/v1
+apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: redis
